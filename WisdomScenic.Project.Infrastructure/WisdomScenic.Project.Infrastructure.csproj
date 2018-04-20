@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBCADB3B-50DE-4E56-82C4-9A73C157DC1D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WisdomScenic.Project.Infrastructure</RootNamespace>
+    <AssemblyName>WisdomScenic.Project.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\IKVM.OpenJDK.Charsets.7.2.4630.5\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\IKVM.OpenJDK.Core.7.2.4630.5\lib\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\IKVM.OpenJDK.Security.7.2.4630.5\lib\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\IKVM.OpenJDK.SwingAWT.7.2.4630.5\lib\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\IKVM.OpenJDK.Text.7.2.4630.5\lib\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\IKVM.OpenJDK.Util.7.2.4630.5\lib\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WisdomScenic.Project.Document\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\NPOI2200\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\NPOI2200\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\NPOI2200\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\NPOI2200\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\StackExchange.Redis.1.2.0\lib\net45\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\WisdomScenic.Project.Document\DLL\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaiDu\Location.cs" />
+    <Compile Include="Cache\CacheHelper.cs" />
+    <Compile Include="Cache\RedisHelper.cs" />
+    <Compile Include="Compress\Deflate.cs" />
+    <Compile Include="Compress\GZip.cs" />
+    <Compile Include="Cookie\CookieHelper.cs" />
+    <Compile Include="DIContainer.cs" />
+    <Compile Include="DingTalk\Robot.cs" />
+    <Compile Include="Excel\ExcelHelper.cs" />
+    <Compile Include="Excel\NPOIExcel.cs" />
+    <Compile Include="Extend\Ext.ChineseToSpell.cs" />
+    <Compile Include="Extend\Ext.Convert.cs" />
+    <Compile Include="Extend\Ext.DateTime.cs" />
+    <Compile Include="Extend\Ext.Dictionary.cs" />
+    <Compile Include="Extend\Ext.Format.cs" />
+    <Compile Include="Extend\Ext.HttpResponse.cs" />
+    <Compile Include="Extend\Ext.RMB.cs" />
+    <Compile Include="Extend\Ext.String.cs" />
+    <Compile Include="Extend\ExtAutoMapper.cs" />
+    <Compile Include="Extend\ExtLinq.cs" />
+    <Compile Include="Extend\ExtLinq.SortBy.cs" />
+    <Compile Include="Extend\ExtList.Comparint.cs" />
+    <Compile Include="FileDown\FileDownHelper.cs" />
+    <Compile Include="Image\ImageLogo.cs" />
+    <Compile Include="Image\ImageThumbnail.cs" />
+    <Compile Include="Image\Upload.cs" />
+    <Compile Include="Json\DynamicHelper.cs" />
+    <Compile Include="Json\DynamicJson.cs" />
+    <Compile Include="Json\DynamicXElement.cs" />
+    <Compile Include="Json\Json.cs" />
+    <Compile Include="Log\Log.cs" />
+    <Compile Include="Log\LogFactory.cs" />
+    <Compile Include="Mail\MailHelper.cs" />
+    <Compile Include="Mail\MailSimple.cs" />
+    <Compile Include="MQ\MSMQHelper.cs" />
+    <Compile Include="Net\HttpMethods.cs" />
+    <Compile Include="Net\HttpResponseMsg.cs" />
+    <Compile Include="Net\Net.cs" />
+    <Compile Include="Net\RandomHelper.cs" />
+    <Compile Include="Net\ResultMsg.cs" />
+    <Compile Include="Net\Token.cs" />
+    <Compile Include="Net\TokenResultMsg.cs" />
+    <Compile Include="Net\WebApiHelper.cs" />
+    <Compile Include="NowApi\NowApi.cs" />
+    <Compile Include="Order\OrderStatus.cs" />
+    <Compile Include="PagePosition\PagingHtml.cs" />
+    <Compile Include="PagePosition\PagingHtmlB2B.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RQCode\RQCodeHelper.cs" />
+    <Compile Include="Security\AESEncrypt.cs" />
+    <Compile Include="Security\Base64Encoder.cs" />
+    <Compile Include="Security\DESEncrypt.cs" />
+    <Compile Include="Security\Md5.cs" />
+    <Compile Include="Security\RSAHelper.cs" />
+    <Compile Include="Serialize.cs" />
+    <Compile Include="SMS\CCPRestSDK.cs" />
+    <Compile Include="SMS\SMSHelper.cs" />
+    <Compile Include="Validate\Validate.cs" />
+    <Compile Include="Version\DllVersion.cs" />
+    <Compile Include="WeatherHelper\WeatherService.cs" />
+    <Compile Include="XML\XmlHelper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.WebApi", "WisdomScenic.Project.WebApi\WisdomScenic.Project.WebApi.csproj", "{22F4ED9B-C79D-441E-AAAF-8F5FC24AF9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.BLL", "WisdomScenic.Project.BLL\WisdomScenic.Project.BLL.csproj", "{45F8F2AC-AD7C-4BA2-8636-79A1D826D111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.DAL", "WisdomScenic.Project.DAL\WisdomScenic.Project.DAL.csproj", "{F8FD30B5-23F5-445A-AF11-F94B9170ADE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.Domain", "WisDomScenic.Project.Domain\WisdomScenic.Project.Domain.csproj", "{686CBAD4-DB7E-4FAE-8256-49555ACDEEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.DTO", "WisdomScenic.Project.DTO\WisdomScenic.Project.DTO.csproj", "{F15A7169-93EF-4902-A159-19802DFED563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.IBLL", "WisdomScenic.Project.IBLL\WisdomScenic.Project.IBLL.csproj", "{240E802D-14F3-45FC-8168-51080DC8FE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.IDAL", "WisdomScenic.Project.IDAL\WisdomScenic.Project.IDAL.csproj", "{F23F60CE-9AEA-419A-BB9D-709942BA6E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.Infrastructure", "WisdomScenic.Project.Infrastructure\WisdomScenic.Project.Infrastructure.csproj", "{DBCADB3B-50DE-4E56-82C4-9A73C157DC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.Document", "WisdomScenic.Project.Document\WisdomScenic.Project.Document.csproj", "{C8D15F7C-EB47-4F6B-94AA-B6FD4CE98091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomScenic.Project.Attributes", "WisdomScenic.Project.Attributes\WisdomScenic.Project.Attributes.csproj", "{20CB2093-4EDC-4061-A489-9A7FE62A1884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F4ED9B-C79D-441E-AAAF-8F5FC24AF9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F4ED9B-C79D-441E-AAAF-8F5FC24AF9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F4ED9B-C79D-441E-AAAF-8F5FC24AF9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F4ED9B-C79D-441E-AAAF-8F5FC24AF9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F8F2AC-AD7C-4BA2-8636-79A1D826D111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F8F2AC-AD7C-4BA2-8636-79A1D826D111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F8F2AC-AD7C-4BA2-8636-79A1D826D111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F8F2AC-AD7C-4BA2-8636-79A1D826D111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FD30B5-23F5-445A-AF11-F94B9170ADE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FD30B5-23F5-445A-AF11-F94B9170ADE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FD30B5-23F5-445A-AF11-F94B9170ADE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FD30B5-23F5-445A-AF11-F94B9170ADE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686CBAD4-DB7E-4FAE-8256-49555ACDEEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686CBAD4-DB7E-4FAE-8256-49555ACDEEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686CBAD4-DB7E-4FAE-8256-49555ACDEEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686CBAD4-DB7E-4FAE-8256-49555ACDEEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15A7169-93EF-4902-A159-19802DFED563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15A7169-93EF-4902-A159-19802DFED563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15A7169-93EF-4902-A159-19802DFED563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15A7169-93EF-4902-A159-19802DFED563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240E802D-14F3-45FC-8168-51080DC8FE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240E802D-14F3-45FC-8168-51080DC8FE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240E802D-14F3-45FC-8168-51080DC8FE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240E802D-14F3-45FC-8168-51080DC8FE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23F60CE-9AEA-419A-BB9D-709942BA6E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23F60CE-9AEA-419A-BB9D-709942BA6E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23F60CE-9AEA-419A-BB9D-709942BA6E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23F60CE-9AEA-419A-BB9D-709942BA6E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCADB3B-50DE-4E56-82C4-9A73C157DC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCADB3B-50DE-4E56-82C4-9A73C157DC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCADB3B-50DE-4E56-82C4-9A73C157DC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCADB3B-50DE-4E56-82C4-9A73C157DC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D15F7C-EB47-4F6B-94AA-B6FD4CE98091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D15F7C-EB47-4F6B-94AA-B6FD4CE98091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D15F7C-EB47-4F6B-94AA-B6FD4CE98091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D15F7C-EB47-4F6B-94AA-B6FD4CE98091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CB2093-4EDC-4061-A489-9A7FE62A1884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CB2093-4EDC-4061-A489-9A7FE62A1884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CB2093-4EDC-4061-A489-9A7FE62A1884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CB2093-4EDC-4061-A489-9A7FE62A1884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://119.23.132.111:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = WisdomScenic.Project.WebApi\\WisdomScenic.Project.WebApi.csproj
+		SccProjectName0 = WisdomScenic.Project.WebApi
+		SccLocalPath0 = WisdomScenic.Project.WebApi
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = WisdomScenic.Project.BLL\\WisdomScenic.Project.BLL.csproj
+		SccProjectName2 = WisdomScenic.Project.BLL
+		SccLocalPath2 = WisdomScenic.Project.BLL
+		SccProjectUniqueName3 = WisdomScenic.Project.DAL\\WisdomScenic.Project.DAL.csproj
+		SccProjectName3 = WisdomScenic.Project.DAL
+		SccLocalPath3 = WisdomScenic.Project.DAL
+		SccProjectUniqueName4 = WisDomScenic.Project.Domain\\WisdomScenic.Project.Domain.csproj
+		SccProjectName4 = WisDomScenic.Project.Domain
+		SccLocalPath4 = WisDomScenic.Project.Domain
+		SccProjectUniqueName5 = WisdomScenic.Project.DTO\\WisdomScenic.Project.DTO.csproj
+		SccProjectName5 = WisdomScenic.Project.DTO
+		SccLocalPath5 = WisdomScenic.Project.DTO
+		SccProjectUniqueName6 = WisdomScenic.Project.IBLL\\WisdomScenic.Project.IBLL.csproj
+		SccProjectName6 = WisdomScenic.Project.IBLL
+		SccLocalPath6 = WisdomScenic.Project.IBLL
+		SccProjectUniqueName7 = WisdomScenic.Project.IDAL\\WisdomScenic.Project.IDAL.csproj
+		SccProjectName7 = WisdomScenic.Project.IDAL
+		SccLocalPath7 = WisdomScenic.Project.IDAL
+		SccProjectUniqueName8 = WisdomScenic.Project.Infrastructure\\WisdomScenic.Project.Infrastructure.csproj
+		SccProjectName8 = WisdomScenic.Project.Infrastructure
+		SccLocalPath8 = WisdomScenic.Project.Infrastructure
+		SccProjectUniqueName9 = WisdomScenic.Project.Document\\WisdomScenic.Project.Document.csproj
+		SccProjectName9 = WisdomScenic.Project.Document
+		SccLocalPath9 = WisdomScenic.Project.Document
+		SccProjectUniqueName10 = WisdomScenic.Project.Attributes\\WisdomScenic.Project.Attributes.csproj
+		SccProjectName10 = WisdomScenic.Project.Attributes
+		SccLocalPath10 = WisdomScenic.Project.Attributes
+	EndGlobalSection
+EndGlobal
