@@ -207,6 +207,8 @@ namespace WisdomScenic.Project.Infrastructure
                     return true;
                 case "fasle":
                     return false;
+                case "false":
+                    return false;
                 default:
                     return null;
             }
